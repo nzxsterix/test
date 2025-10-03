@@ -1,0 +1,90 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);    
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 8px rgb(39, 39, 36);
+    border-radius: 12px;
+}
+
+h1 {
+
+    text-align: center;
+    color: black;
+}
+
+#newtask {
+
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#add-task {
+
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+
+
+ul {
+
+    list-style-type: none;
+    justify-content: space-between;
+    background: #2A7B9B;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+li button {
+    margin-left: 5px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+li button.edit {
+
+    background-color: yellow;
+    color: black;
+}
+
+
+li button.delete {
+    background-color: red;
+    color: black;
+
+}
+
+
+li span.done {
+
+    text-decoration: line-through;
+    color: #888;
+}
+
+li button.toggle {
+
+    background-color: blue;
+    color: white;
+}
